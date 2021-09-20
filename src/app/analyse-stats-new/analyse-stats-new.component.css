@@ -1,0 +1,225 @@
+iframe {
+  width: 99%;
+  margin: 0 auto;
+  border: 0;
+  display: block;
+}
+
+.iframeDiv ul li {
+  list-style-type: none;
+  padding: 5px 0;
+}
+
+.iframeDiv ul {
+  margin: 0;
+  padding: 0;
+}
+
+.analyseCont h1 {
+  font-size: 18px;
+}
+
+.analyseCont h6 {
+  font-weight: normal !important;
+}
+.justify-content-md-end {
+  justify-content: flex-end !important;
+  margin-top: -35px;
+  padding-bottom: 15px;
+}
+.card-body {
+  height: 400px;
+  overflow-x: auto;
+}
+
+.iframeDiv h5 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #007bff;
+}
+.highlight > a {
+  color: rgb(6, 37, 48);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.applicationsList li > a:before {
+  content: "\2B9E";
+  height: 40px;
+  width: 40px;
+  position: relative;
+  left: -5px;
+}
+
+.applicationsList li.highlight > a:before {
+  content: "\2B9F";
+  height: 40px;
+  width: 40px;
+  position: relative;
+  left: -5px;
+}
+
+.appsDependencies li > a:before {
+  content: "";
+  height: 40px;
+  width: 40px;
+  position: relative;
+  left: 5px;
+}
+
+.appsDependencies li {
+  margin-left: 15px !important;
+  list-style-type: disc !important;
+}
+
+.dependencies {
+  padding: 0;
+}
+
+.dependencies .iframeDiv h3 {
+  border-bottom: #cccccc 1px solid;
+  padding: 0 10px;
+  color: #1c1e25;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.dependencies .iframeDiv h3:last-child {
+  border-top: #cccccc 1px solid;
+}
+
+.sideBySide:first-child .card {
+  border-right: 0;
+  border-top-right-radius: 0;
+}
+
+.sideBySide:first-child .card-body {
+  border-right: 0;
+  border-right: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.sideBySide:last-child .card {
+  border-left: 0;
+  border-top-left-radius: 0;
+}
+
+.dropdown.no-arrow {
+  display: none;
+}
+
+.dependencies .iframeDiv ul {
+  margin-bottom: 10px;
+}
+
+.card-header {
+  background-color: #f7f7f7;
+}
+
+.sideBySide {
+  width: 50%;
+  float: left;
+}
+
+.text-primary {
+  color: #1c1e25 !important;
+  font-size: 16px;
+  text-align: center;
+  width: 100%;
+}
+
+li.hideSubList ul {
+  font-size: 13px;
+  /* display: none; */
+}
+
+.hideSubListTitle {
+}
+
+.hasApp2Dep {
+  font-weight: 600;
+}
+
+.card-body.dependencies {
+  padding: 1.25rem;
+}
+
+.hasSubApp2Dep {
+  font-weight: 600;
+  color: #006e74;
+}
+
+.iframeDiv ul {
+  margin-left: 10px;
+}
+
+/* material css */
+
+.example-tree-invisible {
+  display: none;
+}
+
+.example-tree ul,
+.example-tree li {
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+}
+
+/*
+ * This padding sets alignment of the nested nodes.
+ */
+.example-tree .mat-nested-tree-node div[role="group"] {
+  padding-left: 40px;
+}
+
+.example-tree .mat-nested-tree-node .mat-nested-tree-node div[role="group"] {
+  padding-left: 40px;
+}
+
+/*
+ * Padding for leaf nodes.
+ * Leaf nodes need to have padding so as to align with other non-leaf nodes
+ * under the same parent.
+ */
+.example-tree div[role="group"] > .mat-tree-node {
+  padding-left: 20px;
+}
+
+.mat-tree-node {
+  min-height: 25px;
+}
+
+.mat-tree-node.highlightApp {
+  /* color: #006e74; */
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.mat-tree-node.highlightSubApp {
+  color: #006e74;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.mat-tree {
+  display: block;
+  margin-left: -15px;
+}
+
+.mat-nested-tree-node .mat-nested-tree-node .mat-tree-node {
+  margin-left: -20px !important;
+}
+
+.mat-tree-node button:focus {
+  outline: 0;
+}
+
+.example-tree mat-tree-node.mat-tree-node::before {
+  content: "*";
+  height: 10px;
+  width: 10px;
+  position: relative;
+  top: -2px;
+  font-size: 14px;
+  font-weight: 600;
+}
